@@ -1,0 +1,31 @@
+body {
+    background-color: #040D12;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #f0a500;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+}
+
+div {
+    padding: 20px;
+}
